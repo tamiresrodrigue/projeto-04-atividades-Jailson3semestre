@@ -1,0 +1,67 @@
+/*1. reset CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*2. estilos gerais*/
+
+bady{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.content{
+    padding: 20px;
+    text-align: center;
+
+}
+/*3. CABEÇALHO - HEADER*/
+
+.main-header{
+    background-color: #fff;
+    padding: 15px, 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*4. Estilização do logotipo*/
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+/* 5. estilos da navegação (nav) - estilos para lista <ul>*/
+
+.main-nav{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+/*6. estilo para o link <a> dentro da navegação*/
+
+.main-nav{
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    transition: color 0.3s, border-botton-color 0.3;
+}
+
+/*7. efeito hover ao passar o mouse*/
+
+.main-nav a:hover{
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+
+
+}
